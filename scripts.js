@@ -161,7 +161,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 // 0912 add
 function playFlip() {
-  var audio = new Audio('./sounds/flip.mp3');
+  var audio = new Audio('./sounds/Flip.mp3');
   audio.currentTime = 0;
   audio.play();
 }
